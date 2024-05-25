@@ -1,0 +1,53 @@
+# SOAL 1
+1. Jelaskan secara singkat apa itu paradigma dalam bahasa pemrograman?
+# Jawaban
+## Paradigma pemrograman merupakan gaya, klasifikasi, dan pendekatan dalam penulisan program untuk memecahkan masalah dengan menggunakan bahasa pemrograman yang digunakan.
+
+# SOAL 2 
+2. Jelaskan apa yang dimaksud dengan model data, operator, seleksi dan fungsi
+# Jawaban
+## Model data mengacu pada cara kita mengorganisasi dan merepresentasikan informasi dalam komputer. Ini melibatkan pemilihan struktur data yang sesuai untuk menyimpan dan mengelola data.
+## contoh model data meliputi array, linked list, tree, graph, dan database.
+
+# SOAL 3
+3. Jelaskan konsep perulangan pernyataan (Looping Statement) dibawah ini 
+int n, _, i, _;
+cout << "Masukkan jum;ah baris : ";
+cin >> n;
+for (i = 1; i <= _; i++) {
+    for (s = i; _ < n; _++)
+    cout << " ";
+    for (j= 1; _ <= i; _++)
+    cout << ".";
+    cout << "\n";
+}
+# Jawaban
+## Variabel yang Digunakan:
+## n: Variabel yang akan menyimpan jumlah baris yang ingin dimasukkan oleh pengguna.
+## i: Variabel iterasi untuk perulangan luar (baris).
+## _: Variabel iterasi untuk perulangan dalam (spasi dan titik).
+## Input Jumlah Baris:
+## Pengguna diminta memasukkan jumlah baris yang ingin ditampilkan.
+## Nilai yang dimasukkan oleh pengguna disimpan dalam variabel n.
+## Perulangan Luar (Baris):
+## Perulangan ini akan berjalan sebanyak n kali (sesuai dengan jumlah baris yang dimasukkan).
+## Variabel i akan berubah dari 1 hingga n.
+## Setiap iterasi, kita akan melakukan perulangan dalam (perulangan spasi dan titik).
+## Perulangan Dalam (Spasi dan Titik):
+## Pertama, kita mencetak sejumlah spasi sebelum karakter titik.
+## Variabel _ akan berubah dari 1 hingga i.
+## Kemudian, kita mencetak karakter titik sebanyak i.
+## Output:
+## Setiap baris akan terdiri dari spasi di awal dan titik di bagian akhir.
+## Jumlah spasi di setiap baris akan bertambah seiring dengan penambahan nomor baris.
+## Contoh output jika pengguna memasukkan n = 5:
+
+    .
+   ..
+  ...
+ ....
+.....
+
+# SOAL 4
+4. Buatlah program sederhana dengan hasil seperti berikut: > g++ s0al4.cc -o soal4 && ./soal4
+Berati Usia kalian sekarang adalah 21 tahun
